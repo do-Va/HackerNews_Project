@@ -158,6 +158,11 @@ Search
   text-transform: uppercase;
   letter-spacing: var(--spacing);
   margin-top: 1rem;
+  outline: none;
+}
+
+.form-input:focus {
+  border-bottom: 3px solid goldenrod;
 }
 
 /*
